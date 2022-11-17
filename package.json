@@ -2,15 +2,18 @@
   "name": "walletcreateweb3",
   "version": "1.0.0",
   "description": "",
-  "main": "generateWallet.js",
+  "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alex93IDE",
   "license": "ISC",
   "dependencies": {
-    "ethers": "^5.7.1",
-    "web3": "^1.8.0",
-    "dotenv": "^16.0.2"
+    "dotenv": "^16.0.2",
+    "web3": "^1.8.0"
+  },
+  "devDependencies": {
+    "electron": "^21.0.1"
   }
 }
